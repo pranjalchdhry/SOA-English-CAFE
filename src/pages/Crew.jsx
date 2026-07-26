@@ -7,7 +7,7 @@ function Crew() {
 
         {/* TOP QUOTE – NOW IN CORRECT PLACE */}
         <p className="crew-quote-top">
-          “ The strength of the SEC is each individual member, The strength of each member is the SEC. ”
+          “ SEC's strength is each individual member, and the strength of each member is SEC. ”
         </p>
 
         {/* CADET PANEL */}
