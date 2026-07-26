@@ -13,8 +13,8 @@ function Navbar() {
         {/* LEFT (DESKTOP ONLY) */}
         <ul className="nav-left desktop-only">
           <li><Link to="/events">Events</Link></li>
-          <li><Link to="/newsletter">Newsletter</Link></li>
-          <li><Link to="/alum">Alum</Link></li>
+          <li><Link to="/newsletter">Newsletters</Link></li>
+          <li><Link to="/alum">Founders</Link></li>
         </ul>
 
         {/* LOGO */}
@@ -28,7 +28,7 @@ function Navbar() {
         <ul className="nav-right desktop-only">
           <li><Link to="/crew">Crew</Link></li>
           <li><Link to="/about">About Us</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
         </ul>
 
         {/* HAMBURGER (MOBILE) */}
