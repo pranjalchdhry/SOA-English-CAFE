@@ -10,9 +10,9 @@ function Crew() {
           “ SEC's strength is each individual member, and the strength of each member is SEC. ”
         </p>
 
-        {/* CADET PANEL */}
+        {/* SECRETARIAT PANEL */}
         <section className="crew-panel">
-          <h2 className="panel-title">Cadet Team</h2>
+          <h2 className="panel-title">The Secretariat</h2>
 
           <div className="crew-grid">
             {[...Array(29)].map((_, i) => (
@@ -20,12 +20,12 @@ function Crew() {
                 <div className="crew-img">
                   <img
                     src="/images/profile-placeholder.png"
-                    alt="Cadet Member"
+                    alt="Secretariat Member"
                   />
                 </div>
 
-                <h3>Cadet Name</h3>
-                <p className="crew-meta">Cadet</p>
+                <h3>Name</h3>
+                <p className="crew-meta">Role</p>
 
                 <div className="divider"></div>
 
@@ -38,9 +38,9 @@ function Crew() {
           </div>
         </section>
 
-        {/* CONTENT PANEL */}
+        {/* TECH PANEL */}
         <section className="crew-panel">
-          <h2 className="panel-title">Content Team</h2>
+          <h2 className="panel-title">Tech Team</h2>
 
           <div className="crew-grid">
             {[...Array(43)].map((_, i) => (
@@ -48,12 +48,12 @@ function Crew() {
                 <div className="crew-img">
                   <img
                     src="/images/profile-placeholder.png"
-                    alt="Content Member"
+                    alt="Tech Team Member"
                   />
                 </div>
 
-                <h3>Member Name</h3>
-                <p className="crew-meta">Batch 2023 • Content Team</p>
+                <h3>Name</h3>
+                <p className="crew-meta">Tech Team (Frontend/Backend)</p>
 
                 <div className="divider"></div>
 
@@ -65,9 +65,9 @@ function Crew() {
           </div>
         </section>
 
-        {/* TECH PANEL */}
+        {/* CONTENT PANEL */}
         <section className="crew-panel">
-          <h2 className="panel-title">Tech Team</h2>
+          <h2 className="panel-title">Content Team</h2>
 
           <div className="crew-grid">
             {[...Array(9)].map((_, i) => (
@@ -75,12 +75,12 @@ function Crew() {
                 <div className="crew-img">
                   <img
                     src="/images/profile-placeholder.png"
-                    alt="Tech Member"
+                    alt="Content Team Member"
                   />
                 </div>
 
-                <h3>Tech Member</h3>
-                <p className="crew-meta">Batch 2022 • Core Tech</p>
+                <h3>Name</h3>
+                <p className="crew-meta">Content Team</p>
 
                 <div className="divider"></div>
 
