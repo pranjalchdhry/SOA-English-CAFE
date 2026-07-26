@@ -43,11 +43,11 @@ function Navbar() {
         {menuOpen && (
           <div className="mobile-menu">
             <Link to="/events" onClick={() => setMenuOpen(false)}>Events</Link>
-            <Link to="/newsletter" onClick={() => setMenuOpen(false)}>Newsletter</Link>
-            <Link to="/alum" onClick={() => setMenuOpen(false)}>Alum</Link>
+            <Link to="/newsletter" onClick={() => setMenuOpen(false)}>Newsletters</Link>
+            <Link to="/alum" onClick={() => setMenuOpen(false)}>Founders</Link>
             <Link to="/crew" onClick={() => setMenuOpen(false)}>Crew</Link>
             <Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
-            <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+            <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
           </div>
         )}
 
