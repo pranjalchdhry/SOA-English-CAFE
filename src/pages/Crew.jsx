@@ -28,24 +28,25 @@ import praptiImg from "../assets/Prapti Prayashi.jpg";
 import pousaliImg from "../assets/Pousali Dolai.jpg";
 
 // no photo exist
-import akankshyaImg from "../assets/profile-placeholder.png";
+import akankshyaImg from "../assets/Akankshya Jena.jpg";
 import omshreeImg from "../assets/profile-placeholder.png";
-import bhumikaImg from "../assets/profile-placeholder.png";
+import bhumikaImg from "../assets/Bhumika Dash.jpg";
 import sanjanaImg from "../assets/profile-placeholder.png";
 import aryanImg from "../assets/profile-placeholder.png";
-import dibyashreeImg from "../assets/profile-placeholder.png";
-import roshniImg from "../assets/profile-placeholder.png";
-import sriyaImg from "../assets/profile-placeholder.png";
+import dibyashreeImg from "../assets/DIBYASHREE SAHOO.jpeg";
+import roshniImg from "../assets/Roshni Kumari.jpg";
+import sriyaImg from "../assets/ Sriya Sahoo.jpg";
+import ayushshImg from "../assets/Ayush Sharma .jpg";
 
 
 const secretariat = [
   { name: "Ansh Gupta", role: "Coordinator", img: anshGuptaImg, quote: `Would I rather be feared or loved? Easy — both. I want people to be afraid of how much they love me.` },
   { name: "Omshree Dash", role: "Coordinator", img: omshreeImg, quote: `quote not available due to non-submission` },
-  { name: "Bhumika Dash", role: "Event Advisor", img: bhumikaImg, quote: `quote not available due to non-submission` },
+  { name: "Bhumika Dash", role: "Event Advisor", img: bhumikaImg, quote: `Curiosity is the wick in the candle of learning.` },
   { name: "Ananya Roy Karmakar", role: "Tech Lead", img: ananyaImg, quote: `Whatever you do, at the crossroads, keep going forward.` },
   { name: "Abhijeet Dash", role: "Public Relations Executive", img: abhijeetImg, quote: `Live on your own terms 🌸` },
   { name: "Samikshya Jena", role: "Public Relations Executive", img: samikshyaImg, quote: `If your goals don't disrupt your current life cycle, they are too small.` },
-  { name: "Akankshya Jena", role: "Content Executive", img: akankshyaImg, quote: `quote not available due to non-submission` },
+  { name: "Akankshya Jena", role: "Content Executive", img: akankshyaImg, quote: `Whatever happens, let it go, bro. We rock and roll 🤘 Viva la Vida 🍉✨️` },
   { name: "Pousali Dolai", role: "Creative Associate • Tech Team (Frontend)", img: pousaliImg, quote: `The world won't be kinder until you are towards yourself.` },
   { name: "Tanisha Chatterjee", role: "Content Lead", img: taniImg, quote: `Before I learned to design with colors, my mother designed my world with love.` },
   { name: "Saisidhi Samal", role: "Content Lead • Tech Team (Backend)", img: saiSidhi, quote: `May the calm in you win over the chaos around you.` },
@@ -57,9 +58,11 @@ const secretariat = [
 ];
 
 const techTeam = [
-  { name: "Dibyashree Sahoo", role: "Backend Developer", img: dibyashreeImg, quote: `quote not available due to non-submission` },
+  { name: "Dibyashree Sahoo", role: "Backend Developer", img: dibyashreeImg, quote: `Soft chaos` },
   { name: "Pranjal Choudhury", role: "Frontend Developer", img: pranjalImg, quote: `As you sow, so shall you reap.` },
+  { name: "Sriya Sahoo", role: "Backend Developer", img: sriyaImg, quote: `Remember, you're the one who can fill the world with sunshine` },
   { name: "Shubham Kumar", role: "Frontend Developer", img: shubhamImg, quote: `The things we do, do things to us.` },
+  {name:"Ayush Sharma",role: "Contributor", img: ayushshImg , quote:`Special thanks to our former member`},
 ];
 
 const contentTeam = [
@@ -76,8 +79,7 @@ const contentTeam = [
   { name: "Sovam Das Mohapatra", role: "Content Team Member", img: sovamImg, quote: `If you're not at the table, you're on the menu.` },
   { name: "Sunil Kumar Pradhan", role: "Content Team Member", img: sunilImg, quote: `If you see something is wrong and you choose to keep quiet, you are a criminal. — Che Guevara` },
   { name: "Tanzeela Taskeen", role: "Content Team Member", img: tanzeelaImg, quote: `A winner is a dreamer who never gives up.` },
-  { name: "Sriya Sahoo", role: "Content Team Member", img: sriyaImg, quote: `quote not available due to non-submission` },
-  { name: "Roshni", role: "Content Team Member", img: roshniImg, quote: `quote not available due to non-submission` },
+  { name: "Roshni", role: "Content Team Member", img: roshniImg, quote: `Consistently is the key!! ` },
 ];
 
 function TeamPanel({ title, members }) {
